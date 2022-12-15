@@ -1,0 +1,6 @@
+project: vte
+target: vte-fuzz
+
+cmds:
+    - cmd: ./vte-fuzz
+      libfuzzer: true
